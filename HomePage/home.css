@@ -1,0 +1,77 @@
+.support
+{
+	width: 1400px;  
+    overflow: hidden;  
+    padding: 5px; 
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top:0px;
+}
+.promote{
+	font-size: 28px;
+	background-color: Khaki;
+	border-radius: 10px;
+	margin-left: 55px;
+	margin-right: 55px;
+	padding: 25px;
+	background-clip: padding-box;
+}
+h1{
+	display: inline-block;
+	text-align: left;
+	font-size: 30px;
+}
+.promote a:link, a:visited{
+	transition-duration: 0.4s;
+	background-color: DarkOrange;
+	color: White;
+	text-align: center;
+	text-decoration: none;
+	width: 100px;
+	height: 50px;
+	float: right;
+	font-size: 20px;
+	margin: 12px;
+}
+.promote a:hover, a:active{
+	background-color: Green;
+}
+p{
+	display: inline-block;
+	font-size: 24px;
+}
+.support a.link1{
+	color: Blue;
+	float: right;
+	margin: 12px;
+}
+.support a.link2{
+	color: Blue;
+	font-size: 20px;
+	float: left;
+	margin-left: 25px;
+}
+.bookNow{
+	width: 120px;
+	height: 60px;
+	text-align: center;
+	float: center;
+	background-color: White;
+	font-size: 20px;
+	margin-left: 600px;
+	border: 2px solid GoldenRod;
+	transition-duration: 0.4s;
+}
+.bookNow:hover{
+	background-color: GoldenRod;
+	color: White;
+}
+.eventDesc{
+	float: center;
+	padding: 50px;
+	position: absolute;
+	bottom: 20px;
+	font-size: 23px;
+	background-color: White;
+	border-radius: 10px;
+}
