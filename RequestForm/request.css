@@ -1,0 +1,164 @@
+.support
+{
+	width: 1400px;  
+        overflow: hidden;  
+        padding: 5px; 
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top:0px;
+}
+.promote{
+	font-size: 15px;
+	background-color: Khaki;
+	border-radius: 10px;
+	margin-left: 55px;
+	margin-right: 55px;
+	padding: 25px;
+	background-clip: padding-box;
+}
+h2{
+	display: inline-block;
+	text-align: left;
+	font-size: 20px;
+}
+.promote a:link, a:visited{
+	transition-duration: 0.4s;
+	background-color: DarkOrange;
+	color: White;
+	text-align: center;
+	text-decoration: none;
+	width: 100px;
+	height: 35px;
+	float: right;
+	font-size: 15px;
+	margin: 12px;
+}
+.promote a:hover, a:active{
+	background-color: Green;
+}
+p{
+	display: inline-block;
+	font-size: 18px;
+}
+.support a.link1{
+	display: inline-block;
+	font-size: 15px;
+	color: Blue;
+	float: right;
+	margin: 12px;
+}
+.support a.link2{
+	color: Blue;
+	font-size: 15px;
+	float: left;
+	margin-left: 25px;
+}
+
+
+
+.requestForm{
+	text-align: center;
+	background-color: Khaki;
+	border-radius: 12px;
+	width: 600px;  
+        overflow: hidden;  
+        padding: 5px; 
+	margin: auto;
+	margin: 20 0 0 450px; 
+	height: 650px;
+margin-top: 10px;
+}
+h1{
+	margin-top: 12px;
+	font-size: 25px;
+}
+label{
+	float: left;
+	margin-left: 75px;
+}
+label1{
+	display: inline-block;
+	float: left;
+	margin-left: 75px;
+}
+label2{
+	float: left;
+	margin-left: 45px;
+}
+label3{
+	float: left;
+	margin-left: 45px;
+}
+label4{
+	float: left;
+	margin-left: 75px;
+	display: inline-block;
+}
+label5{
+	display: inline-block;
+	float: left;
+	margin-left: 75px;
+}
+label6{
+	font-size: 20px;
+}
+label7{
+	float: left;
+}
+il1{
+	float: right;
+	margin-right: 200px;
+}
+il2{
+	float: left;
+	margin-left: 70px;
+}
+il3{
+	float: left;
+	margin-left: 20px;
+}
+il4{
+	float: left;
+	margin-left: 55px;
+}
+il5{
+	float: left;
+	margin-left: 110px;
+}
+il6{
+	float: left;
+	margin-left: 77px;
+}
+il7{
+	float: left;
+	margin-left: 104px;
+}
+il8{
+	float: left;
+	margin-left: 63px;
+}
+il9{
+	float: left;
+	margin-left: 80px;
+}
+il10{
+	float: left;
+	margin-left: 40px;
+}
+il11{
+	float: left;
+	margin-left: 64px;
+}
+il12{
+	float: left;
+	margin-left: 75px;	
+	display: inline-block;
+}
+R1{
+	float: left;
+	margin-left: 105px;
+}
+.Done{
+	float: right;
+	margin-right: 105px;
+}
