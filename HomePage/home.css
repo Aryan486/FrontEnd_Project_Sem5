@@ -1,0 +1,139 @@
+.support
+{
+	width: 100%;  
+    overflow: hidden;  
+    padding: 5px; 
+	margin-top:0px;
+	background-color: rgb(255, 146, 96);
+	box-sizing: border-box;
+	margin-bottom: 25px;
+}
+.promote{
+	font-size: 20px;
+	background-color: Khaki;
+	border-radius: 10px;
+	margin-left: 55px;
+	margin-right: 55px;
+	padding: 25px;
+	background-clip: padding-box;
+}
+h1{
+	display: inline-block;
+	text-align: left;
+	font-size: 25px;
+}
+.promote a:link,.promote a:visited{
+	transition-duration: 0.4s;
+	background-color: darkorange;
+	color: White;
+	text-align: center;
+	text-decoration: none;
+	width: 100px;
+	height: 50px;
+	float: right;
+	font-size: 18px;
+	margin: 12px;
+}
+.promote a:hover, a:active{
+	background-color: Green;
+}
+p{
+	display: inline-block;
+	font-size: 20px;
+}
+.support a.link1{
+	color: Blue;
+	float: right;
+	margin: 12px;
+	font-size: 17px;
+	text-decoration: none;
+}
+.support a.link2{
+	color: Blue;
+	font-size: 17px;
+	float: left;
+	margin-left: 25px;
+	text-decoration: none;
+}
+#booking{
+	background-color: khaki;
+	width: 90%;
+	height: 1000px;
+	border-radius: 12px;
+	margin-left: 70px;
+}
+li{
+	margin-top: 30px;
+	display: inline-block;
+	font-size: 27px;
+	margin-left: 120px;
+}
+table,td,th{
+	border: 2px solid black;
+	border-collapse: collapse;
+}
+table{
+	margin-top: 50px;
+	width: 940px;
+	padding: 50px;
+	font-size: 20px;
+	margin-left: 200px;
+	background-color:lemonchiffon;
+}
+tr:hover{
+	background-color:seashell;
+}
+td,th{
+	padding: 25px;
+	margin-left: 150px;
+	text-align: center;
+}
+th{
+	font-size: 25px;
+}
+td div{
+	margin-right: 10px;
+	height: 15px;
+	width: 15px;
+	border-radius: 7.5px;
+	display:inline-block;
+}
+.avail
+{
+	background: green;
+}
+.booked{
+	background: red;
+}
+.booked_anchor{
+	pointer-events: none;
+}
+td a{
+	text-decoration: none;
+	color: white;
+	padding: 7px;
+	background-color: rgb(189, 52, 52);
+}
+td a:hover{
+	color: black;
+	background-color: orange;
+	transition: 0.4s;
+}
+label{
+	margin-left: 300px;
+	font-size: 17px;
+	margin-top: 20px;
+	position: absolute;
+}
+.fill{
+	float: right;
+	margin-right: 300px;
+	margin-top: 20px;
+	font-size: 17px;
+	text-decoration: none;
+	padding:5px;
+	background-color: white;
+}
+.fill:hover{
+	color: red;
+}
