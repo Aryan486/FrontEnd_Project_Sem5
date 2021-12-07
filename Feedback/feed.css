@@ -1,0 +1,42 @@
+body
+{
+	background-image: url("https://th.bing.com/th/id/Rc7f8f0025f585bbf8abebfeae1a50cfe?rik=PVQ2choBn6BRQA&riu=http%3a%2f%2fimg.collegepravesh.com%2f2014%2f12%2fThapar-University.jpg&ehk=CCOy468fwERBONZm5Dhv%2fG8BdT6U5ansGCbgjFc4dEQ%3d&risl=&pid=ImgRaw");
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+  	background-size: cover;
+}
+.info{
+    width: 700px;
+    margin-left: 470px;
+    background-color: khaki;
+    border-radius: 12px;
+    height: 400px;
+}
+h1{
+    text-align: center;
+    padding-top: 25px;
+}
+label{
+    font-size: 22px;
+    margin-left: 150px;
+    margin-top: 25px;
+}
+input[type="radio"]{
+    margin-left: 150px;
+}
+label1{
+    font-size: 20px;
+}
+input[type="submit"],input[type="reset"]{
+    margin-left: 165px;
+    padding: 8px;
+    font-size: 13px;
+    border: 2px solid black;
+    cursor:pointer;
+}
+input[type="submit"]:hover,input[type="reset"]:hover{
+    color: slategray;
+}
+h3{
+    text-align: center;
+}
