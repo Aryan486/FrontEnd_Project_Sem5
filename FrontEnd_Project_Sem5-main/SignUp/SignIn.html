@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign Up</title>
+	<link rel="stylesheet" href="sign.css">
+</head>
+<body>
+	<style>
+	body{
+		background-image: url("https://th.bing.com/th/id/Rc7f8f0025f585bbf8abebfeae1a50cfe?rik=PVQ2choBn6BRQA&riu=http%3a%2f%2fimg.collegepravesh.com%2f2014%2f12%2fThapar-University.jpg&ehk=CCOy468fwERBONZm5Dhv%2fG8BdT6U5ansGCbgjFc4dEQ%3d&risl=&pid=ImgRaw");
+		background-repeat:no-repeat;
+		background-attachment: fixed;
+  		background-size: cover;
+	}
+	</style>
+	<div class="SignUp">
+		<h1>Thapar ARMS</h1>
+		<h2>Sign-Up</h2>
+		<form id="Sup" action="../userRegister.php" method="post" name="form"> 
+			<label for="Name"><b>Enter Name</b></label>
+			<input type="text" id="Name" name="name" placeholder="Name">
+			<br><br>
+			<label for="Uid"><b>Enter User-ID</b></label>
+			<input type="text" id="Uid" name="id" placeholder="User-ID">
+			<br><br>
+			<label for="mail"><b>Enter E-Mail (thapar.edu)</b></label>
+			<input type="text" id="mail" name="email" placeholder="Mail-ID">
+			<br><br>
+			<label for="phone"><b>Enter Mobile Number</b></label>
+			<input type="number" id="phone" name="phone" placeholder="Mobile Number">
+			<br><br>
+			<label for="dob"><b>Enter Date of Birth</b></label>
+			<input type="date" id="dob" name="dob">
+			<br><br>
+			<label for="pass"><b>Enter Password (Use mixture of upper case, lower case and numbers of length 8)</b></label>
+			<input type="password" id="pass" name="password" placeholder="Password">
+			<br><br><br>
+			<button type="submit" name="submit" onmousedown="validate()">Sign-Up</button>
+		</form>
+	</div>
+	<script src="validate.js"></script>
+</body>
+</html>

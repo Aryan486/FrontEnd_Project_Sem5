@@ -1,0 +1,16 @@
+body
+{
+    background-image: url("https://th.bing.com/th/id/Rc7f8f0025f585bbf8abebfeae1a50cfe?rik=PVQ2choBn6BRQA&riu=http%3a%2f%2fimg.collegepravesh.com%2f2014%2f12%2fThapar-University.jpg&ehk=CCOy468fwERBONZm5Dhv%2fG8BdT6U5ansGCbgjFc4dEQ%3d&risl=&pid=ImgRaw");
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1{
+    margin: 100px;
+    background-color: khaki;
+    text-align: center;
+}
+a:hover{
+    color:red;
+}
+
