@@ -1,0 +1,113 @@
+body
+{
+    background-image: url("https://th.bing.com/th/id/Rc7f8f0025f585bbf8abebfeae1a50cfe?rik=PVQ2choBn6BRQA&riu=http%3a%2f%2fimg.collegepravesh.com%2f2014%2f12%2fThapar-University.jpg&ehk=CCOy468fwERBONZm5Dhv%2fG8BdT6U5ansGCbgjFc4dEQ%3d&risl=&pid=ImgRaw");
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+    background-size: cover;
+}
+.support
+{
+	width: 100%;  
+    overflow: hidden;  
+    padding: 5px; 
+	margin-top:0px;
+	background-color: rgb(255, 146, 96);
+	box-sizing: border-box;
+	margin-bottom: 25px;
+	
+}
+.promote{
+	font-size: 15px;
+	background-color: Khaki;
+	border-radius: 10px;
+	margin-left: 55px;
+	margin-right: 55px;
+	padding: 25px;
+	background-clip: padding-box;
+}
+h2{
+	display: inline-block;
+	text-align: left;
+	font-size: 20px;
+}
+.promote .a:link, .a:visited{
+	transition-duration: 0.4s;
+	background-color: DarkOrange;
+	color: White;
+	text-align: center;
+	text-decoration: none;
+	width: 100px;
+	height: 35px;
+	float: right;
+	font-size: 15px;
+	margin: 12px;
+}
+.promote .a:hover, .a:active{
+	background-color: Green;
+}
+p{
+	display: inline-block;
+	font-size: 18px;
+}
+.support a.link1{
+	font-size: 17px;
+	color: Blue;
+	float: right;
+	margin: 12px;
+	text-decoration: none;
+}
+.support a.link2{
+	color: Blue;
+	font-size: 17px;
+	float: left;
+	margin-left: 25px;
+	text-decoration: none;
+}
+.bookNow{
+	width: 120px;
+	height: 30px;
+	text-align: center;
+	float: center;
+	background-color: White;
+	font-size: 15px;
+	margin-left: 600px;
+	border: 2px solid GoldenRod;
+	transition-duration: 0.4s;
+}
+.bookNow:hover{
+	background-color: Blue;
+	color: White;
+}
+
+.reach{
+    width: 40%;
+    margin-left: 450px;
+    background-color: khaki;
+    height: 550px;
+    border-radius: 12px;;
+}
+h1{
+    text-align: center;
+    padding-top: 50px;
+}
+label{
+    padding-left: 150px;
+    font-size: 17px;
+}
+input[type="text"],input[type="email"]{
+    margin-left: 150px;
+    width: 50%;
+}
+#mess{
+    height: 125px;
+}
+input[type="submit"],input[type="reset"]{
+    margin-left: 165px;
+    padding: 8px;
+    font-size: 13px;
+    border: 2px solid black;
+    cursor:pointer;
+}
+input[type="submit"]:hover,input[type="reset"]:hover{
+    color: slategray;
+}
